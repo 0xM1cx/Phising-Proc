@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<script type="text/javascript" src="/credentials.json"></script>-->
+        <link rel="stylesheet" href="/static/styles.css">
+        <title>PicoCTF</title>
+        <style>
+            .cred {
+                color: whitesmoke;
+            }
+            .cred:hover {
+                color: rgb(75, 72, 185);
+            }
+            input {
+                border: 1px dashed whitesmoke;
+                border-radius: 0.5rem;
+                padding: 0.1rem 0.3rem;
+                caret-color: #fff;
+            }
+            input::placeholder {
+                    border-style: solid;
+                    outline: none;
+                    background-color: transparent;
+                    color: whitesmoke;
+                }
+            #copyright {
+                color: white;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-card">
+            <form action="greet" method="post" name="myform">
+                <p class="cred" >Email</p>
+                <input style="color: white;" type="text" name="user_name" id="username">
+                <br>
+                <p class="cred">Password</p>
+                <input style="color: white;" type="password" id="password" name="password">
+                <br>
+                <input type="checkbox" name="seePass" id="seePass" onclick="showPass()"> 
+                <small><label class="cred" for="seePass">Show Password</label></small>
+                <br>
+                <input type="submit" id="greet" value="Login">
+                <br>
+                <small id="copyright">Shawn Michael Sudaria © 2022</small>
+            </form>
+        </div>       
+    </body>
+</html>

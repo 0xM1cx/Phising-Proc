@@ -1,0 +1,6 @@
+{
+    "Daniel-Email": "09295698976",
+    "Daniel-Password": "09639112694",
+    "Caber-Email": "johnlemuelcaber@gmail.com",
+    "Caber-Password": "monsterlegends"
+}

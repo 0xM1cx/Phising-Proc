@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 31, 77);
+    flex-direction: column;
+}
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(52, 50, 121);
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 5px 8px rgb(52, 50, 121);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit {
+    margin-top: 5px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+#username, #password {
+    background-color: transparent;
+}
+
+.cred {
+    color: white;
+    
+}
+#label:hover {
+    color: rgb(75, 72, 185);
+}
